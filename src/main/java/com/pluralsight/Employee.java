@@ -42,6 +42,14 @@ public class Employee {
         return payRate;
     }
 
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public void setPayRate(double payRate) {
         this.payRate = payRate;
     }
